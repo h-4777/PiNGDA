@@ -1,4 +1,4 @@
-# Learn Beneficial Noise as Graph Augmentation
+# Learn Beneficial Noise as Graph Augmentation (ICML 2025)
 
 [![arXiv](https://img.shields.io/badge/ArXiv-2406.04692-b31b1b.svg)](https://arxiv.org/abs/2505.19024)
 
@@ -55,4 +55,18 @@ python tu_train.py --learnable_edge_drop --learnable_feat_drop
 --learnable_edge_drop: enable learnable edge noise
 
 --learnable_feat_drop: enable learnable feature noise
+```
+
+## Citation
+
+If you find the code useful for your research, please consider citing our work:
+
+```
+@inproceedings{PiNGDA,
+  title     = {Learn Beneficial Noise as Graph Augmentation},
+  author    = {Huang, Siqi and Xu, Yanchen and Zhang, Hongyuan and Li, Xuelong},
+  booktitle = {Proceedings of the 42nd International Conference on Machine Learning (ICML)},
+  year      = {2025},
+  pages     = {},
+}
 ```
